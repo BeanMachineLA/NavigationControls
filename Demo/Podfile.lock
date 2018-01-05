@@ -1,0 +1,35 @@
+PODS:
+  - ActionMenu (0.0.11)
+  - HamburgerMenu (0.0.18)
+  - PageMenu (0.0.20)
+
+DEPENDENCIES:
+  - ActionMenu (from `https://github.com/TalntsApp/TalntsNavigationControls.git`)
+  - HamburgerMenu (from `https://github.com/TalntsApp/TalntsNavigationControls.git`)
+  - PageMenu (from `https://github.com/TalntsApp/TalntsNavigationControls.git`)
+
+EXTERNAL SOURCES:
+  ActionMenu:
+    :git: https://github.com/TalntsApp/TalntsNavigationControls.git
+  HamburgerMenu:
+    :git: https://github.com/TalntsApp/TalntsNavigationControls.git
+  PageMenu:
+    :git: https://github.com/TalntsApp/TalntsNavigationControls.git
+
+CHECKOUT OPTIONS:
+  ActionMenu:
+    :commit: 4a3847b4e6b588bfdb2b95e21434b5ce85f06e61
+    :git: https://github.com/TalntsApp/TalntsNavigationControls.git
+  HamburgerMenu:
+    :commit: 4a3847b4e6b588bfdb2b95e21434b5ce85f06e61
+    :git: https://github.com/TalntsApp/TalntsNavigationControls.git
+  PageMenu:
+    :commit: 4a3847b4e6b588bfdb2b95e21434b5ce85f06e61
+    :git: https://github.com/TalntsApp/TalntsNavigationControls.git
+
+SPEC CHECKSUMS:
+  ActionMenu: 170a7cf9a84251eb9e2922b67bedf3275d552367
+  HamburgerMenu: dd54785ad8fc7a659915fbdcf377203b4f697fab
+  PageMenu: 7b42e0b0d328fcd204bebe426badc374cec2814e
+
+COCOAPODS: 0.38.2

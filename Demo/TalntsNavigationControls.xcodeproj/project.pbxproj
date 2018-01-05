@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39271AB41B417BAC00E108AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39271AB31B417BAC00E108AC /* AppDelegate.swift */; };
+		39271AB61B417BAC00E108AC /* PagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39271AB51B417BAC00E108AC /* PagesViewController.swift */; };
+		39271AB91B417BAC00E108AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39271AB71B417BAC00E108AC /* Main.storyboard */; };
+		39271ABB1B417BAC00E108AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39271ABA1B417BAC00E108AC /* Images.xcassets */; };
+		39271ABE1B417BAC00E108AC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39271ABC1B417BAC00E108AC /* LaunchScreen.xib */; };
+		D39244E2B495C96D77B0C841 /* Pods_TalntsNavigationControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 511C4C04F7FBE689FACF7A0F /* Pods_TalntsNavigationControls.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		ED31F3861B5485530030B614 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED31F3851B5485530030B614 /* ViewController.swift */; };
+		EDBBFF431B4D57A000E81600 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBBFF421B4D57A000E81600 /* PageViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1850ED25392B6458EC51334A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		2EE83AA0D43DB4904ED40B72 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39271AAE1B417BAC00E108AC /* TalntsNavigationControls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalntsNavigationControls.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39271AB21B417BAC00E108AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39271AB31B417BAC00E108AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		39271AB51B417BAC00E108AC /* PagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagesViewController.swift; sourceTree = "<group>"; };
+		39271AB81B417BAC00E108AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39271ABA1B417BAC00E108AC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		39271ABD1B417BAC00E108AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		511C4C04F7FBE689FACF7A0F /* Pods_TalntsNavigationControls.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TalntsNavigationControls.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87CC17494C544E23B2FE81A1 /* Pods-TalntsNavigationControls.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalntsNavigationControls.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TalntsNavigationControls/Pods-TalntsNavigationControls.debug.xcconfig"; sourceTree = "<group>"; };
+		CE72A3609BDC640E8240FB95 /* Pods-TalntsNavigationControls.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalntsNavigationControls.release.xcconfig"; path = "Pods/Target Support Files/Pods-TalntsNavigationControls/Pods-TalntsNavigationControls.release.xcconfig"; sourceTree = "<group>"; };
+		CF610743CABB019DE27863AE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		ED31F3851B5485530030B614 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDBBFF421B4D57A000E81600 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DCE7F6FDCC233419520FEBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39244E2B495C96D77B0C841 /* Pods_TalntsNavigationControls.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27F701D9CB72171B0EC25083 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF610743CABB019DE27863AE /* Pods.debug.xcconfig */,
+				1850ED25392B6458EC51334A /* Pods.release.xcconfig */,
+				87CC17494C544E23B2FE81A1 /* Pods-TalntsNavigationControls.debug.xcconfig */,
+				CE72A3609BDC640E8240FB95 /* Pods-TalntsNavigationControls.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		39271AA51B417BAC00E108AC = {
+			isa = PBXGroup;
+			children = (
+				39271AB01B417BAC00E108AC /* TalntsNavigationControls */,
+				39271AAF1B417BAC00E108AC /* Products */,
+				27F701D9CB72171B0EC25083 /* Pods */,
+				DE0623916140590748346F50 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		39271AAF1B417BAC00E108AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39271AAE1B417BAC00E108AC /* TalntsNavigationControls.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39271AB01B417BAC00E108AC /* TalntsNavigationControls */ = {
+			isa = PBXGroup;
+			children = (
+				39271AB31B417BAC00E108AC /* AppDelegate.swift */,
+				39271AD41B417C0600E108AC /* Example */,
+				39271AD31B417BC000E108AC /* Resources */,
+				39271AB11B417BAC00E108AC /* Supporting Files */,
+			);
+			path = TalntsNavigationControls;
+			sourceTree = "<group>";
+		};
+		39271AB11B417BAC00E108AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39271AB21B417BAC00E108AC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39271AD31B417BC000E108AC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				39271ABA1B417BAC00E108AC /* Images.xcassets */,
+				39271ABC1B417BAC00E108AC /* LaunchScreen.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		39271AD41B417C0600E108AC /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				EDBBFF421B4D57A000E81600 /* PageViewController.swift */,
+				39271AB51B417BAC00E108AC /* PagesViewController.swift */,
+				39271AB71B417BAC00E108AC /* Main.storyboard */,
+				ED31F3851B5485530030B614 /* ViewController.swift */,
+			);
+			name = Example;
+			sourceTree = "<group>";
+		};
+		DE0623916140590748346F50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EE83AA0D43DB4904ED40B72 /* Pods.framework */,
+				511C4C04F7FBE689FACF7A0F /* Pods_TalntsNavigationControls.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39271AAD1B417BAC00E108AC /* TalntsNavigationControls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39271ACD1B417BAD00E108AC /* Build configuration list for PBXNativeTarget "TalntsNavigationControls" */;
+			buildPhases = (
+				9E4D77D81E9DFAD722F14E2F /* Check Pods Manifest.lock */,
+				39271AAA1B417BAC00E108AC /* Sources */,
+				39271AAC1B417BAC00E108AC /* Resources */,
+				0DCE7F6FDCC233419520FEBA /* Frameworks */,
+				19D7995CA038809BE65F6EC2 /* Embed Pods Frameworks */,
+				F83DE2E4078E1AD50F17A2DC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TalntsNavigationControls;
+			productName = TalntsNavigationControls;
+			productReference = 39271AAE1B417BAC00E108AC /* TalntsNavigationControls.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39271AA61B417BAC00E108AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Xorosho;
+				TargetAttributes = {
+					39271AAD1B417BAC00E108AC = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 39271AA91B417BAC00E108AC /* Build configuration list for PBXProject "TalntsNavigationControls" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39271AA51B417BAC00E108AC;
+			productRefGroup = 39271AAF1B417BAC00E108AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39271AAD1B417BAC00E108AC /* TalntsNavigationControls */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39271AAC1B417BAC00E108AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39271AB91B417BAC00E108AC /* Main.storyboard in Resources */,
+				39271ABE1B417BAC00E108AC /* LaunchScreen.xib in Resources */,
+				39271ABB1B417BAC00E108AC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19D7995CA038809BE65F6EC2 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TalntsNavigationControls/Pods-TalntsNavigationControls-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E4D77D81E9DFAD722F14E2F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F83DE2E4078E1AD50F17A2DC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TalntsNavigationControls/Pods-TalntsNavigationControls-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39271AAA1B417BAC00E108AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDBBFF431B4D57A000E81600 /* PageViewController.swift in Sources */,
+				39271AB61B417BAC00E108AC /* PagesViewController.swift in Sources */,
+				ED31F3861B5485530030B614 /* ViewController.swift in Sources */,
+				39271AB41B417BAC00E108AC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		39271AB71B417BAC00E108AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39271AB81B417BAC00E108AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39271ABC1B417BAC00E108AC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39271ABD1B417BAC00E108AC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39271ACB1B417BAD00E108AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39271ACC1B417BAD00E108AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39271ACE1B417BAD00E108AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87CC17494C544E23B2FE81A1 /* Pods-TalntsNavigationControls.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = TalntsNavigationControls/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39271ACF1B417BAD00E108AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE72A3609BDC640E8240FB95 /* Pods-TalntsNavigationControls.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = TalntsNavigationControls/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39271AA91B417BAC00E108AC /* Build configuration list for PBXProject "TalntsNavigationControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39271ACB1B417BAD00E108AC /* Debug */,
+				39271ACC1B417BAD00E108AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39271ACD1B417BAD00E108AC /* Build configuration list for PBXNativeTarget "TalntsNavigationControls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39271ACE1B417BAD00E108AC /* Debug */,
+				39271ACF1B417BAD00E108AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39271AA61B417BAC00E108AC /* Project object */;
+}
